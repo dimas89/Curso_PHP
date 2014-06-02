@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "es">
+<meta charset = "utf-8"/>
+<head>
+    <title> Formulario HTML </title>
+</head>
+<body>
+
+
+	<form method = "GET" action = "operar.php">
+		Primer Numero:
+		<input type = "number" name = "num1" autofocus></input> <br>
+		Segundo Numero:
+		<input type = "number" name = "num2" autofocus></input> <br>
+		Estado:
+		<select name = "operador">
+			<option value = "suma"> + </option>
+			<option value = "resta"> - </option>
+			<option value = "multi"> * </option>
+			<option value = "divi"> / </option>
+			<option value = "mod"> % </option>
+		</select>
+
+		
+		<br>
+		<input type = "submit" value = "Calcular">
+
+	</form>
+
+</body>
+</html>
